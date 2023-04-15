@@ -1,0 +1,31 @@
+#footer {
+    height: 20vh;
+    background-color: var(--color-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-container img {
+    width: 70px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 200;
+}
