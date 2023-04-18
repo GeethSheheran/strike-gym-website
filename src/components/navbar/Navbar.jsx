@@ -23,7 +23,7 @@ const Navbar = ({ toggle }) => {
   return (
     <nav className={navbar ? "navbar-active-color" : "navbar"}>
       <HiMenu className="menu-bars" onClick={toggle} />
-      <Link to="/">
+      <Link to="/classes">
         <a href="/" className="menu-items">Classes</a>
       </Link>
       <Link to="/">
