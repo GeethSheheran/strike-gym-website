@@ -3,8 +3,7 @@ import { Link } from "react-router-dom"
 import './shop.css'
 import shopData from "./shopData"
 import Footer from "../footer/Footer"
-import { CiShoppingCart } from 'react-icons/ci'
-import { CgClose } from 'react-icons/cg'
+import ShoppingCartModal from "./ShoppingCart"
 
 const Shop = () => {
     
@@ -41,26 +40,10 @@ const Shop = () => {
         });
     };
 
-    const [showModal, setShowModal] = useState(false);
-
   return (
     <div className="shop">
 
-        <button className="shopping-cart" onClick={() => setShowModal(true)}>
-            <CiShoppingCart alt="shopping-cart" className="cart-img"/> 
-            <span className="cart-number">0</span>
-
-                {showModal && (
-                    <div className="modal-wrapper">
-                        <div className="modal">
-                            <div className="close-container">
-                                <CgClose className="modal-close" onClick={(e) => { e.stopPropagation(); setShowModal(false)}} />
-                            </div>
-                    </div>
-                </div>
-            )}
-        
-        </button>
+        <ShoppingCartModal />
 
         <h1 className="shop-title">Train in our <span>colors!</span></h1>
         <div className="shop-container">

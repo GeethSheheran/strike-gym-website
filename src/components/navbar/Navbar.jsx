@@ -27,7 +27,7 @@ const Navbar = ({ toggle }) => {
         <a href="/" className="menu-items">Classes</a>
       </Link>
       <Link to="/">
-        <a href="/" className="menu-items">Gyms</a>
+        <a href="/" className="menu-items">Pricing</a>
       </Link>
       <a href="/">
         <img src={LOGO} alt="strike" className="strike" />

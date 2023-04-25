@@ -14,6 +14,7 @@ import POWER_ICON from "../../assets/logos/strength.png";
 import BOXING_ICON from "../../assets/logos/boxing2.png";
 import SPINNING_ICON from "../../assets/logos/spinning.png";
 import YOGA_ICON from "../../assets/logos/yoga.png";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -86,7 +87,9 @@ const Hero = () => {
               <div class="overlay-content">
                 <img className="class-icon" src={POWER_ICON} alt="POWER-ICON" />
                 <h2>POWER</h2>
-                <button className="class-btn">Book lesson</button>
+                <Link to="/classes">
+                  <button className="class-btn">Book lesson</button>
+                </Link>
               </div>
             </div>
           </div>
@@ -97,7 +100,9 @@ const Hero = () => {
               <div class="overlay-content">
                 <img className="class-icon" src={BOXING_ICON} alt="BOXING-ICON" />
                 <h2>BOXING</h2>
-                <button className="class-btn">Book lesson</button>
+                <Link to="/classes">
+                  <button className="class-btn">Book lesson</button>
+                </Link>
               </div>
             </div>
           </div>
@@ -108,7 +113,9 @@ const Hero = () => {
               <div class="overlay-content">
                 <img className="class-icon" src={SPINNING_ICON} alt="SPINNING-ICON" />
                 <h2>SPINNING</h2>
-                <button className="class-btn">Book lesson</button>
+                <Link to="/classes">
+                  <button className="class-btn">Book lesson</button>
+                 </Link>
               </div>
             </div>
           </div>
@@ -119,7 +126,9 @@ const Hero = () => {
               <div class="overlay-content">
                 <img className="class-icon" src={YOGA_ICON} alt="YOGA-ICON" />
                 <h2>YOGA</h2>
-                <button className="class-btn">Book lesson</button>
+                <Link to="/classes">
+                  <button className="class-btn">Book lesson</button>
+                </Link>
               </div>
             </div>
           </div>

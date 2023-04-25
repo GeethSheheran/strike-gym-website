@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
 import './product.css'
 import { useParams } from 'react-router-dom';
-import { CiShoppingCart } from 'react-icons/ci'
-import { CgClose } from 'react-icons/cg'
 import Footer from '../footer/Footer';
+import ShoppingCartModal from './ShoppingCart';
 
 const Product = ({ shopData }) => {
-    const [showModal, setShowModal] = useState(false);
     const { id } = useParams();
     const product = shopData.find(item => item.id === Number(id));
 
     const [activeButtonColor, setActiveButtonColor] = useState(0);
     const [activeButtonSize, setActiveButtonSize] = useState(0);
+    
     const handleClickColor = (buttonIndexColor) => {
       setActiveButtonColor(buttonIndexColor);
     };
@@ -26,20 +25,7 @@ const Product = ({ shopData }) => {
     return (
       <div className='product-container'>
 
-        <button className="shopping-cart" onClick={() => setShowModal(true)}>
-            <CiShoppingCart alt="shopping-cart" className="cart-img"/> 
-            <span className="cart-number">0</span>
-
-          {showModal && (
-            <div className="modal-wrapper">
-              <div className="modal">
-                <div className="close-container">
-                  <CgClose className="modal-close" onClick={(e) => { e.stopPropagation(); setShowModal(false)}} />
-                </div>
-              </div>
-            </div>
-          )}
-        </button>
+        <ShoppingCartModal />
 
         <div className="product-row">
           <div className="product-img-container">
@@ -74,4 +60,4 @@ const Product = ({ shopData }) => {
     );
   };
 
-export default Product
+export default Product;

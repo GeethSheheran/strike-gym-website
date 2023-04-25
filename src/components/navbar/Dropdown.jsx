@@ -25,7 +25,7 @@ const Dropdown = ({isOpen, toggle}) => {
         <div className="dropdown-menu">
             <Link to='/'><a href="/" className='dropdown-items'>Home</a></Link>
             <Link to='/classes'><a href="/" className='dropdown-items'>Classes</a></Link>
-            <Link to='/'><a href="/" className='dropdown-items'>Gyms</a></Link>
+            <Link to='/'><a href="/" className='dropdown-items'>Pricing</a></Link>
             <Link to='/shop'><a href="/" className='dropdown-items'>Shop</a></Link>
             <Link to='/contact'><a href="/" className='dropdown-items'>Contact</a></Link>
         </div>
