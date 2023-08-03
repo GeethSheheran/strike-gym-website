@@ -26,7 +26,7 @@ const Navbar = ({ toggle }) => {
       <Link to="/classes">
         <a href="/" className="menu-items">Classes</a>
       </Link>
-      <Link to="/">
+      <Link to="/pricing">
         <a href="/" className="menu-items">Pricing</a>
       </Link>
       <a href="/">

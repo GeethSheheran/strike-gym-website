@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import './classes.css';
 import Footer from '../footer/Footer';
 import classesByDay from './classesData';
+import CLOCK from '../../assets/logos/clock.png'
+import COACH from '../../assets/logos/coach2.png'
+
 
 const Classes = () => {
   const [selectedDay, setSelectedDay] = useState('');
@@ -22,7 +25,7 @@ const Classes = () => {
     <section className="classes">
       <h1 className="classes-title">Classes schedule</h1>
       <div className="classes-container">
-        <div>
+        <div className='classes-days'>
           {Object.keys(classesByDay).map((day) => (
             <button
               className={selectedDay === day ? 'active' : ''}
@@ -41,8 +44,8 @@ const Classes = () => {
               style={{ backgroundImage: `url(${classItem.img})` }}
             >
               <p className="class-name">{classItem.name}</p>
-              <p>{classItem.time}</p>
-              <p>{classItem.trainer}</p>
+              <img src={CLOCK} alt='clock' className='class-logo'/><p>{classItem.time}</p>
+              <img src={COACH} alt='coach' className='class-logo'/><p>{classItem.trainer}</p>
               <button className="reserve-btn">Reserve</button>
             </li>
           ))}

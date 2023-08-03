@@ -1,6 +1,6 @@
 import React from 'react'
 import './playlist.css'
-import PLAY from '../../assets/logos/play.png'
+import PLAY from '../../assets/logos/spotify.png'
 
 const Playlist = () => {
   return (

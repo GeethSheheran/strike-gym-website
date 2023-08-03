@@ -83,7 +83,7 @@ const Contact = () => {
               </li>
               <li>
                 <img src={CLOCK_CYAN} alt="" />
-                mo - su: 0:00 - 0:00
+                MO - SU: 0:00 - 0:00
               </li>
             </ul>
           </div>

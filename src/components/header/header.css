@@ -20,7 +20,7 @@ header {
 }
 
 .header-container h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #fff;
   text-transform: uppercase;
 }
@@ -142,30 +142,12 @@ span {
     font-size: 1.5rem;
   }
 
-  /* QUOTES */
-
-  .span1 {
-    font-size: 40px;
+  .header-socials {
+    display: none;
   }
 
-  .span2 {
-    font-size: 20px;
-  }
-
-  .span3 {
-    font-size: 25px;
-  }
-
-  .span4 {
-    font-size: 60px;
-  }
-
-  .span5 {
-    font-size: 20px;
-  }
-
-  .span6 {
-    font-size: 10px;
+  .header-quotes {
+    display: none;
   }
 }
 

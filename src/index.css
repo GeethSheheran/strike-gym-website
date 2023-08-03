@@ -26,10 +26,12 @@ html {
 
 ::-webkit-scrollbar {
     background-color: transparent;
+    width: 8px;
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: transparent;
+    background-color: #404040;
+    border-radius: 50px;
   }
   
   ::-webkit-scrollbar-track {

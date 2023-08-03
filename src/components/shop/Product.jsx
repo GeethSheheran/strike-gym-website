@@ -54,7 +54,6 @@ const Product = ({ shopData }) => {
           </div>
 
         </div>
-  
         <Footer />
       </div>
     );

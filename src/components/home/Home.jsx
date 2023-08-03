@@ -4,14 +4,19 @@ import Hero from "../hero/Hero";
 import Membership from "../membership/Membership";
 import Playlist from "../playlist/Playlist";
 import Footer from "../footer/Footer";
+import { Fade } from "react-reveal";
 
 const Home = () => {
   return (
     <>
-      <Header />
+      <Fade>
+        <Header />
+      </Fade>
       <Hero />
       <Membership />
-      <Playlist />
+      <Fade bottom>
+        <Playlist />
+      </Fade>
       <Footer />
     </>
   );

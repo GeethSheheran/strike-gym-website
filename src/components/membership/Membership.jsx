@@ -1,15 +1,20 @@
 import React from "react";
 import "./membership.css";
+import { Fade } from "react-reveal";
+import CLICK from '../../assets/logos/click.png'
 
 const Membership = () => {
   return (
     <section id="membership">
       <div className="membership-container">
-        <h1>
-          It's your time to <span>strike!</span>
-        </h1>
-        <h2 className="plans-h2">Membership plans</h2>
+        <Fade bottom>
+          <h1>
+            It's your time to <span>strike!</span>
+          </h1>
+          <h2 className="plans-h2">Membership plans</h2>
+        </Fade>
 
+        <Fade bottom>
         <div className="membership-cards">
           <div className="membership-card">
             <p className="price">30$</p>
@@ -50,8 +55,12 @@ const Membership = () => {
           </div>
 
         </div>
-        <h2 className="voucher-h2">Still not sure?</h2>
-        <div className="btn-voucher">Get 1 free entry</div>
+        </Fade>
+        
+        <Fade bottom>
+          <h2 className="voucher-h2">Still not sure?</h2>
+          <div className="btn-voucher">Get 1 free entry<img src={CLICK} alt="click" className="voucher-click" /></div>
+        </Fade>
       </div>
     </section>
   );

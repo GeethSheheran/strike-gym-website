@@ -57,13 +57,22 @@
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
+  margin-bottom: 120px;
 }
 
 .h1-classes {
   font-size: 60px;
   color: #fff;
   text-transform: uppercase;
-  margin: 30px 0 50px 0;
+  margin: 30px 0 0 0;
+}
+
+.h2-classes {
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 50px 0;
 }
 
 .hero-classes {
@@ -161,7 +170,21 @@
 
 @media screen and (max-width: 768px) {
   .hero-container h1 {
-    font-size: 50px;
+    font-size: 2.7rem;
+    padding: 10px;
+    line-height: 60px;
+  }
+
+  .h1-classes {
+    font-size: 2.7rem;
+    line-height: 60px;
+    padding: 10px;
+  }
+
+  .h2-classes {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    font-weight: 300;
   }
 
   .hero-cards {
@@ -172,9 +195,13 @@
     margin-top: 50px;
   }
 
+  .class-grid-item {
+    width: 350px;
+    height: 300px;
+  }
+
   .class-grid-item img {
     width: 350px;
-    height: auto;
   }
   
   .class-grid-item .class-icon {
