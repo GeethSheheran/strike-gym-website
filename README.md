@@ -1,8 +1,9 @@
-# STRIKE FITNESS WEBSITE
+# 🖥️ STRIKE FITNESS WEBSITE
 
-### 🖥️ Live demo of the page: [STRIKE](https://strike-ondrejvosmera.vercel.app/)
+### ✅ Live demo of the page: [STRIKE](https://strike-ondrejvosmera.vercel.app/)
 
-🛠️ Built with React JS
+#### 🛠️ Built with React JS
 
-<p align='center'>🏠 HOMEPAGE</p>
-![homepage](https://github.com/ondrejvosmera/strike/assets/94987136/860dec0c-497f-4ace-86f7-384e6b10e825)
+<h3 align='center'>🏠 HOMEPAGE</h3>
+
+![homepage](https://github.com/ondrejvosmera/strike/assets/94987136/ab6af339-6feb-41b3-bf23-2ce5a425a150)
