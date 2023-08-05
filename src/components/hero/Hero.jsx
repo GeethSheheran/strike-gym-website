@@ -15,18 +15,18 @@ import BOXING_ICON from "../../assets/logos/boxing2.png";
 import SPINNING_ICON from "../../assets/logos/spinning.png";
 import YOGA_ICON from "../../assets/logos/yoga.png";
 import { Link } from "react-router-dom";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const Hero = () => {
   return (
     <section id="hero">
       <div className="hero-container">
-      <Fade bottom>
+      <Fade bottom triggerOnce="true">
         <h1 className="h1-cards">
           Why choose <span className="cyan">us?</span>
         </h1>
       </Fade>
-      <Fade bottom>
+      <Fade bottom triggerOnce="true">
         <div className="hero-cards">
           <div className="hero-card">
             <img src={DUMBBELL} alt="dumbbell" />
@@ -80,7 +80,7 @@ const Hero = () => {
       </div>
 
       <div className="hero-classes-container">
-      <Fade bottom>
+      <Fade bottom triggerOnce="true">
         <h1 className="h1-classes">
           Together we <span className="pink">achieve!</span>
         </h1>
@@ -89,7 +89,7 @@ const Hero = () => {
         </h2>
         </Fade>
 
-        <Fade bottom>
+        <Fade bottom triggerOnce="true">
         <div className="hero-classes">
           <div class="class-grid-item">
             <img className="class-img" src={POWER_CLASS} alt="POWER" />

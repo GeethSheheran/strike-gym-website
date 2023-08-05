@@ -9,6 +9,7 @@ import Product from "./components/shop/Product";
 import shopData from "./components/shop/shopData";
 import Classes from './components/classes/Classes';
 import Pricing from "./components/pricing/Pricing";
+import ScrollToTop from "./components/scrollToTop";
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,6 +29,7 @@ const App = () => {
         <Route exact path="/classes" element={<Classes />} />
         <Route exact path="/pricing" element={<Pricing />} />
       </Routes>
+      <ScrollToTop />
     </>
   );
 };
