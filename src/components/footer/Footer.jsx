@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import LOGO from '../../assets/logos/strike.svg'
+import LOGO from '../../assets/logos/gymLogo.png'
 import INSTAGRAM from '../../assets/logos/instagram_white.svg'
 import YOUTUBE from '../../assets/logos/youtube_white.png'
 import SPOTIFY from '../../assets/logos/spotify_white.png'
@@ -35,7 +35,7 @@ const Footer = () => {
         <div className="row2">
           <div className="col3">
             <img src={LOGO} alt="Strike" />
-            <h3 className='footer-strike-title'>Strike fitness</h3>
+            <h3 className='footer-strike-title'>fitness zone</h3>
           </div>
         </div>
 

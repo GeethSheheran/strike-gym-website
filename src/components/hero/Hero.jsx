@@ -62,13 +62,13 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className="hero-card">
+          {/* <div className="hero-card">
             <img src={BOXING} alt="boxing" />
             <h2>Boxing gym</h2>
             <p>
               Boxing part in both of our gyms. With all the equipment needed.
             </p>
-          </div>
+          </div> */}
 
           <div className="hero-card">
             <img src={OPENING_HOURS} alt="opening hours" />
@@ -104,7 +104,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div class="class-grid-item">
+          {/* <div class="class-grid-item">
           <img className="class-img" src={BOXING_CLASS} alt="BOXING" />
             <div class="overlay">
               <div class="overlay-content">
@@ -115,7 +115,7 @@ const Hero = () => {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div class="class-grid-item">
           <img className="class-img" src={SPINNING_CLASS} alt="SPINNING" />
@@ -130,7 +130,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div class="class-grid-item">
+          {/* <div class="class-grid-item">
           <img className="class-img" src={YOGA_CLASS} alt="YOGA" />
             <div class="overlay">
               <div class="overlay-content">
@@ -141,7 +141,7 @@ const Hero = () => {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         </Fade>
       </div>

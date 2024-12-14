@@ -45,9 +45,9 @@ const Shop = () => {
 
         <ShoppingCartModal />
 
-        <h1 className="shop-title">Train in our <span>colors!</span></h1>
+        <h1 className="shop-title">Comming <span>Soon!</span></h1>
         <div className="shop-container">
-            {products.map((product) => (
+            {/* {products.map((product) => (
                 <div key={product.id} className="shop-card">
 
                     {Object.keys(product.checkImg).map((item) => {
@@ -77,7 +77,7 @@ const Shop = () => {
                         </div>
                     </Link>
                 </div>
-            ))}
+            ))} */}
         </div>
         <Footer />
     </div>

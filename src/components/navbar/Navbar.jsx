@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./navbar.css";
-import LOGO from "../../assets/logos/strike.svg";
+import LOGO from "../../assets/logos/gymLogo.png";
 import { Link } from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
 

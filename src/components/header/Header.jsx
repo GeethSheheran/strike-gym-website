@@ -10,8 +10,8 @@ const Header = () => {
         <HeaderQuotes />
         <div className="header-cta">
           <h1>End of excuses</h1>
-          <a href="#membership">
-            <div className="btn">Start now</div>
+          <a href="tel:+1234567890">
+            <button className="btn">Contact us</button>
           </a>
         </div>
         <HeaderSocials />
