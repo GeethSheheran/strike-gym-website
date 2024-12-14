@@ -12,18 +12,18 @@ const Footer = () => {
 
       <div className="row1">
         <div className="col1">
-          <h3 className='footer-title'><span class="underline">Strike gym</span></h3>
+          <h3 className='footer-title'><span class="underline">Fitness Zone</span></h3>
           <ul className='footer-text'>
-            <li>London</li>
-            <li>416 Marion drive</li>
-            <li>mo - su: 0:00 - 0:00</li>
+            <li>Anuradhapura Road</li>
+            <li>Galenbidunuwewa</li>
+            <li>Sri Lanka</li>
           </ul>
         </div>
 
         <div className="col2">
           <h3 className='footer-title'><span class="underline">Quick links</span></h3>
           <ul className='footer-text'>
-            <li><a href="/home">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="/classes">Classes</a></li>
             <li><a href="/pricing">Membership</a></li>
             <li><a href="/shop">Shop</a></li>
@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
 
         <div className="col5">
-          <h3 className='footer-title'><span class="underline">Strike socials</span></h3>
+          <h3 className='footer-title'><span class="underline">social media</span></h3>
           <span></span>
           <ul className='footer-text'>
             <a href="https://www.instagram.com"><li><img src={INSTAGRAM} alt="Instagram" />Instagram</li></a>

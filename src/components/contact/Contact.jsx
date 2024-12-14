@@ -37,27 +37,27 @@ const contactData = [
     description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Donec vitae arcu.',
     gender: 'male'
   },
-  {
-    avatar: CLARA,
-    name: 'Clara',
-    role: 'fitness coach',
-    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Donec vitae arcu.',
-    gender: 'female'
-  },
-  {
-    avatar: LEO,
-    name: 'Leo',
-    role: 'boxing coach',
-    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Donec vitae arcu.',
-    gender: 'male'
-  },
-  {
-    avatar: MARIANA,
-    name: 'Mariana',
-    role: 'boxing coach',
-    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Donec vitae arcu.',
-    gender: 'female'
-  }
+  // {
+  //   avatar: CLARA,
+  //   name: 'Clara',
+  //   role: 'fitness coach',
+  //   description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Donec vitae arcu.',
+  //   gender: 'female'
+  // },
+  // {
+  //   avatar: LEO,
+  //   name: 'Leo',
+  //   role: 'boxing coach',
+  //   description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Donec vitae arcu.',
+  //   gender: 'male'
+  // },
+  // {
+  //   avatar: MARIANA,
+  //   name: 'Mariana',
+  //   role: 'boxing coach',
+  //   description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Donec vitae arcu.',
+  //   gender: 'female'
+  // }
 ]
 
 const Contact = () => {
@@ -67,11 +67,11 @@ const Contact = () => {
       <h1 className="contact-title">Reach out to us!</h1>
       <div className="contact-container">
           <div className="contact-london">
-            <h2>London gym</h2>
+            <h2>Fitness zone</h2>
             <ul>
               <li>
                 <img src={LOCATION_CYAN} alt="" />
-                416 Marion Drive
+                Anuradhapura Road,Galenbidunuwewa
               </li>
               <li>
                 <img src={PHONE_CYAN} alt="" />
@@ -79,11 +79,11 @@ const Contact = () => {
               </li>
               <li>
                 <img src={EMAIL_CYAN} alt="" />
-                info@strike.com
+                info@zoon.com
               </li>
               <li>
                 <img src={CLOCK_CYAN} alt="" />
-                MO - SU: 0:00 - 0:00
+                MON - FRI: 07:00 - 20:00
               </li>
             </ul>
           </div>

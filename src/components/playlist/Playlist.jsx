@@ -6,11 +6,11 @@ const Playlist = () => {
   return (
     <div className='playlist-container'>
         <div className="playlist-text">
-            <h2>Beats for <span className='pink'>gains</span></h2>
-            <p>Get pumped up with our <br />
-            workout playlist!</p>
+            <h2>Contact <span className='pink'>us</span></h2>
+            <p>We’d love to hear from you! <br />
+            Reach out to us for inquiries, support, or feedback.</p>
         </div>
-        <button className='play-btn'><img src={PLAY} alt="play" /> Play</button>
+        <button className='play-btn'><img src={PLAY} alt="play" /> Call</button>
     </div>
   )
 }
